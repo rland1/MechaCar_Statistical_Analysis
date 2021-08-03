@@ -23,3 +23,12 @@ head(total_summary)
 # create lot_summary dataframe by using group_by() and summarize() functions. 
 lot_summary <- suspensionCoil_df %>% group_by(Manufacturing_Lot) %>% summarize(Mean = mean(PSI), Median = median(PSI), Variance = var(PSI), Stddev = sd(PSI))
 head(lot_summary)
+
+## Deliverable 3
+# t test functions 
+t.test(suspensionCoil_df$PSI, mu=1500)
+t.test(subset(suspensionCoil_df,Manufacturing_Lot=="Lot1")$PSI, mu = 1500)
+t.test(subset(suspensionCoil_df,Manufacturing_Lot=="Lot2")$PSI, mu = 1500)
+t.test(subset(suspensionCoil_df,Manufacturing_Lot=="Lot3")$PSI, mu = 1500)
+
+
