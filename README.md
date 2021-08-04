@@ -25,11 +25,12 @@ Analyzing the results of the t-test analysis overall and for each individual lot
 ## Study Design: MechaCar vs Competition
 
 ### Metric to Test
-
+I would test the maintenance cost metric. None of the variables so far touch on cost, and I think its an important factor regarding the competition from others. 
 ### Null Hypothesis 
-
+Null Hypothesis: MechaCar has similar costs to competitors and a similar profitability
+Alternate Hypothesis: MechaCar has very different costs to competitors and differs in profitability
 ### Statistical Test to Use
-
+I would do a linear regression on the variables to test this. I would look at the p-value and compare it to the p-value from other companies to see which could be the most profitable. 
 ### Data Needed
-
+I would need cost and expense data to perform this test. Anything essentially that could also affect profitability would be helpful (inflows and outflows).
 
