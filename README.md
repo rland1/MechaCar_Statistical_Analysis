@@ -25,7 +25,7 @@ Analyzing the results of the t-test analysis overall and for each individual lot
 ## Study Design: MechaCar vs Competition
 
 ### Metrics to Test
-I would test the maintenance cost metric. None of the variables so far touch on cost, and I think its an important factor regarding the competition from others. 
+I would test the maintenance cost metric. None of the variables so far focus on cost, and I think its an important factor regarding the competition from others. 
 ### Null Hypothesis 
 Null Hypothesis: MechaCar has similar costs to competitors and a similar profitability.
 Alternate Hypothesis: MechaCar has very different costs to competitors and differs in profitability.
